@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+
+    background-image: url(../imgs/imagem\ de\ background\ dreamy.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: #fff;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+nav {
+    height: 4rem;
+    border-bottom: #fff 2px solid;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+nav > img {
+    width: 50px;
+    height: 50px;
+    margin-left: 3rem;
+
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-right: 8em;
+    
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: 600;
+}
+
+main {
+    display: flex;
+    flex: 1;
+    margin-left: 3rem;
+}
+
+.column {
+    flex: 1;
+    padding: 1rem;
+}
+
+
+
+.column:last-child { 
+    display: flex;
+    justify-content: center;
+    
+}
+
+.column:last-child img {
+    width: 400px;
+    height: 400px;
+}
+
+button{
+    color: #333;
+    font-family: "Instrument Sans", sans-serif;
+    background-color: #fff;
+    border: none;
+    border-radius: 12px;
+    height: 3rem;
+    width: 10rem;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+    margin-right: 4rem;
+    
+}
+
+button:hover{
+    background-color: transparent;
+    border: 3px solid #fff;
+    color: #333;
+}
