@@ -6,6 +6,7 @@
     <title>Dreamify</title>
     <link rel="shortcut icon" href="../assets/imgs/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="../assets/css/index.css">
+   
     
 </head>
 <body>
@@ -14,7 +15,9 @@
         <h1>Dreamify</h1>
     </nav>
 
+    <button id="login-button">Login com Spotify</button>
 
+    <p id="artist-info">Aqui aparecerão as informações do artista.</p>
     <main>
         <div class="column">
              <h2>Explore e Crie Playlists com o Melhor do Spotify</h2>
@@ -23,7 +26,12 @@
         </div>
         <div class="column">
             <img class="img-home"   src="../assets/imgs/img-home.png" alt="Notas músicais flutuantes">
+            <form id="search-form">
+                <input type="text" id="artist-input" placeholder="Nome do artista" required>
+                <button type="submit">Buscar Artista</button>
+            </form>
         </div>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
